@@ -17,6 +17,9 @@ Plotly
 
 TensorFlow
 
+
+
+
 ## How to Run 
 Clone this repository
 
@@ -43,7 +46,19 @@ K-Nearest Neighbors (KNN)
 
 Neural Network (using TensorFlow)
 
-The models are trained and tested using a 80/20 train/test split. The performance of each model is evaluated using various metrics, including accuracy, precision, recall, and the area under the receiver operating characteristic (ROC) curve.
+## The following steps are taken in this project:
 
-## Conclusion 
-Based on the results obtained, the neural network model appears to have the highest accuracy and the highest area under the ROC curve, followed by the random forest and KNN models. The logistic regression and decision tree models have relatively lower performance compared to the other models.
+Importing necessary libraries: The first step is to import all the necessary libraries that will be used in the project. These libraries include numpy, pandas, seaborn, matplotlib, sklearn, and tensorflow.
+
+Splitting the dataset into training and testing sets: The dataset is split into a training set (80%) and a testing set (20%) using train_test_split from sklearn.model_selection.
+
+Applying machine learning algorithms: Several machine learning algorithms are applied to the training set, including LogisticRegression, DecisionTreeClassifier, KNeighborsClassifier, RandomForestClassifier, MLPClassifier, and SVC.
+
+Evaluating model performance: The performance of each model is evaluated using various metrics, including r2_score, mean_squared_error, accuracy_score, and others. The model with the highest performance is selected for further analysis.
+
+Visualizing results: The results of the analysis are visualized using various plots and charts, including confusion matrices, precision-recall curves, and ROC curves.
+
+Improving model performance: Steps are taken to improve the performance of the selected model, such as hyperparameter tuning and feature selection.
+
+Throughout the project, the focus is on understanding the underlying patterns in the data and using them to make accurate predictions.
+
