@@ -1,7 +1,7 @@
 # Heart_Attack_Prediction
 This project is designed to predict whether a person is likely to have a heart attack or not based on various risk factors such as age, gender, blood pressure, cholesterol, etc. The prediction is made using different machine learning algorithms, including logistic regression, decision tree, random forest, K-nearest neighbors (KNN), and neural network.
 
-Dependencies
+**Dependencies**
 NumPy
 Pandas
 Matplotlib
