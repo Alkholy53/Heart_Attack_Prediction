@@ -4,7 +4,9 @@ This project is designed to predict whether a person is likely to have a heart a
 ## Dependencies 
 
 NumPy
+
 Pandas
+
 Matplotlib
 Seaborn
 scikit-learn
